@@ -1,7 +1,7 @@
 // console.log('bu yazı introduction.js den geldi!')
 
 console.log(typeof 'Prototurk') // string
-console.log(typeof 5) // number
+console.log(typeof 7) // number
 console.log(typeof true) // boolean
 console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
