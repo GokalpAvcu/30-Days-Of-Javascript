@@ -2,13 +2,15 @@ const date = new Date() // tarih işlemleri için date sınıfımı başlattım
 
 let year = date.getFullYear(),
         month = date.getMonth(),
-        day = date.getDay(),
+        day = date.getDate(),
         hour = date.getHours(),
         minute = date.getMinutes(),
         second = date.getSeconds(),
-        dayName = date.getDay()
+        dayNumber = date.getDay()
 
 // aylar için bir dizi oluşturdum      
+// months[month]
+// $[months[month]]
 let months = [
      "Ocak",
      "Şubat",
@@ -33,6 +35,8 @@ let days = [
     "Cumartesi",
 ]
 
-let humanReadableDate = `${day}`
-        console.log(months.length)
-        console.log(months[0])
+let humanReadableDate = `${day} ${months[month]} ${year}, ${days[dayNumber]}, ${hour}:${minute}:${second}`
+// 12 Mart, 2022, Cuma,
+console.log(humanReadableDate)
+//console.log(months.length)
+//console.log(months[0])
