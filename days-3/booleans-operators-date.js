@@ -47,29 +47,68 @@ console.log(`PI sayısının değeri ${PI} suyun kaynama sıcaklığı ${boiling
 //let isLightOff = !isLightOn           // false
 //let isMarried = !false                // true
 
-// Increment Operator (Arttırma operatörü)
+/* Increment Operator (Arttırma operatörü)
 
 // Pre-increment
-//let count = 0
+let count = 0
 console.log(++count)        // 1
 console.log(count)          // 1
 
 // Post-increment 
 // Genel olarak bunu kullanırız
-//let count = 0
+let count = 0
 console.log(count++)        // 0
 console.log(count)          // 1
 
 //Decrement Operator (Azaltma operatörü)
 
 // Pre-decrement
-//let count = 0
+let count = 0
 console.log(--count) // -1
 console.log(count)  // -1
 
 // Post-decrement
-//let count = 0
+let count = 0
 console.log(count--) // 0
-console.log(count)   // -1
+console.log(count)   // -1 */
+
+// Ternary Operators (Üçlü operatör) koşul durumu
+// KOŞUL ? TRUE : FALSE
+let isRaining = true
+// true olma koşulu
+isRaining
+? console.log("You need a rain coat.") // true ise bunu yaz
+: console.log("No need for a rain coat.") // false ise bunu yaz
+
+// false olma koşulu
+isRaining = false
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+
+let number = 55
+number > 0
+? console.log(`${number} is a positive number`)
+: console.log(`${number} is a negative number`)
+
+// Window alert() method
+// En başta gördüğünüz gibi alert() metodu, belirtilen bir mesaj ve bir OK butonu ile bir uyarı kutusu görüntüler. Yerleşik bir yöntemdir ve argüman alır.
+// Yıkıcı ve sinir bozucu olduğu için çok fazla uyarı kullanmayın, sadece test etmek için kullanın.
+//alert(message)
+//alert('Welcome to my Youtube channel')
+
+// Window prompt() method 
+// Kullanıcıdan bir input almak istediğimde kullanılabilir
+/*prompt('required text', 'optional text')
+let num = prompt('Enter number', 'number goes here')
+console.log(number)*/
+
+// Window confirm() method 
+// Pencere Onay Yöntemi
+
+let isDelete = confirm("Silmek istediğine emin misin? ")
+
+isDelete ? "Silme işlemi başarılı" : "Silme işlemi iptal"
+console.log()
 
 
