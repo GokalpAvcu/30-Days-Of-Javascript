@@ -21,8 +21,8 @@ console.log(`Üçgenin Çevresi: ${perimeterValue}`);*/
 
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
-const number1 = Number(prompt("Dikdörtgenin uzun kenarının değerini giriniz!"))
+/*const number1 = Number(prompt("Dikdörtgenin uzun kenarının değerini giriniz!"))
 const number2 = Number(prompt("Dikdörtgenin kısa kenarının değerini giriniz!"))
 
 const perimeterValue = (number1 + number2) * 2
-console.log(`Dikdörtgenin alanı: ${perimeterValue}`)
+console.log(`Dikdörtgenin alanı: ${perimeterValue}`) */
