@@ -26,3 +26,11 @@ const number2 = Number(prompt("Dikdörtgenin kısa kenarının değerini giriniz
 
 const perimeterValue = (number1 + number2) * 2
 console.log(`Dikdörtgenin alanı: ${perimeterValue}`) */
+
+// Compare your first name length and your family name length and you should get this output.
+
+let firstName = "Gökalp"
+let lastName = "Avcu"
+
+firstName.length > lastName.length ? 
+console.log("Your first name, ${firstName} is longer than your family name, ${lastName}")

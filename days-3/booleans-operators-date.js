@@ -73,9 +73,9 @@ console.log(count--) // 0
 console.log(count)   // -1 */
 
 // Ternary Operators (Üçlü operatör) koşul durumu
+
 // KOŞUL ? TRUE : FALSE
-let isRaining = true
-// true olma koşulu
+let isRaining = true // true olma koşulu
 isRaining
 ? console.log("You need a rain coat.") // true ise bunu yaz
 : console.log("No need for a rain coat.") // false ise bunu yaz
@@ -94,8 +94,8 @@ number > 0
 // Window alert() method
 // En başta gördüğünüz gibi alert() metodu, belirtilen bir mesaj ve bir OK butonu ile bir uyarı kutusu görüntüler. Yerleşik bir yöntemdir ve argüman alır.
 // Yıkıcı ve sinir bozucu olduğu için çok fazla uyarı kullanmayın, sadece test etmek için kullanın.
-//alert(message)
-//alert('Welcome to my Youtube channel')
+// alert(message)
+// alert('Welcome to my Youtube channel')
 
 // Window prompt() method 
 // Kullanıcıdan bir input almak istediğimde kullanılabilir
