@@ -29,9 +29,9 @@ console.log(`Dikdörtgenin alanı: ${perimeterValue}`) */
 
 // Compare your first name length and your family name length and you should get this output.
 
-let firstName = prompt("İsminizi giriniz")
+/*let firstName = prompt("İsminizi giriniz")
 let lastName = prompt("Soy isminizi giriniz")
 
 firstName.length > lastName.length ? 
 console.log(`Your first name, ${firstName} is longer than your last name, ${lastName}`): 
-console.log(`Your first name, ${firstName} is shorter than your last name, ${lastName}`)
+console.log(`Your first name, ${firstName} is shorter than your last name, ${lastName}`) */
