@@ -35,3 +35,23 @@ let lastName = prompt("Soy isminizi giriniz")
 firstName.length > lastName.length ? 
 console.log(`Your first name, ${firstName} is longer than your last name, ${lastName}`): 
 console.log(`Your first name, ${firstName} is shorter than your last name, ${lastName}`) */
+
+// Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+
+/*let myAge = 42
+let yourAge = 23
+let difference = Math.abs(myAge - yourAge)
+myAge > yourAge ? console.log(`I am ${difference} years older than you.`): 
+console.log(`I am ${difference} years younger than you.`) */
+
+// Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+
+
+
+
+// Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+
+
+
+
+// Create a human readable time format using the Date time object
