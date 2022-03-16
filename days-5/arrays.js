@@ -64,9 +64,9 @@ console.log(companies)
 
 // ***************************************************************************************************************************************************
 
-const fruits = ['banana', 'orange', 'mango', 'lemon']
+/*const fruits = ['banana', 'orange', 'mango', 'lemon']
 let firstFruit = fruits[0] // we are accessing the first item using its index
-console.log(firstFruit) // banana
+console.log(firstFruit) // banana */
 
 secondFruit = fruits[1]
 console.log(secondFruit) // orange
@@ -151,11 +151,11 @@ console.log(four4values) // [4, 4, 4, 4]
 
 
 // concat: İki diziyi birleştirmek için.
-const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of fruits
+/*const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
 const fruitsAndVegetables = fruits.concat(vegetables)                 // concatenate the two arrays
 
-console.log(fruitsAndVegetables)
+console.log(fruitsAndVegetables) */
 
 //indexOf: Bir dizide bir öğenin olup olmadığını kontrol etmek için. Varsa dizini döndürür, aksi takdirde -1 döndürür.
 const numbers = [1, 2, 3, 4, 5]
@@ -178,3 +178,12 @@ if(index === -1){
 
 // we can use also ternary here (ternany operatoru ile)
 index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
+
+// let us check if a avocado exist in the array
+let indexOfAvocado = fruits.indexOf('avocado')  // -1, if the element not found index is -1
+if(indexOfAvocado === -1){
+   console.log('This fruit does not exist in the array')  
+} else {
+    console.log('This fruit does exist in the array')
+}
+// This fruit does not exist in the array
