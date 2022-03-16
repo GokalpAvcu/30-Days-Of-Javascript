@@ -148,3 +148,33 @@ console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
 
 const four4values = Array(4).fill(4) // it creates 4 element values filled with '4'
 console.log(four4values) // [4, 4, 4, 4]
+
+
+// concat: İki diziyi birleştirmek için.
+const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of fruits
+const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
+const fruitsAndVegetables = fruits.concat(vegetables)                 // concatenate the two arrays
+
+console.log(fruitsAndVegetables)
+
+//indexOf: Bir dizide bir öğenin olup olmadığını kontrol etmek için. Varsa dizini döndürür, aksi takdirde -1 döndürür.
+const numbers = [1, 2, 3, 4, 5]
+
+console.log(numbers.indexOf(5)) // -> 4
+console.log(numbers.indexOf(0)) // -> -1
+console.log(numbers.indexOf(1)) // -> 0
+console.log(numbers.indexOf(6)) // -> -1
+
+// Dizimin içinde "banana" ögesinin olup olmadigini kontrol etmek icin
+const fruits = ['banana', 'orange', 'mango', 'lemon']
+let index = fruits.indexOf('banana')  // 0
+
+if(index === -1){
+   console.log('This fruit does not exist in the array')  
+} else {
+    console.log('This fruit does exist in the array')
+}
+// This fruit does exist in the array
+
+// we can use also ternary here (ternany operatoru ile)
+index === -1 ? console.log('This fruit does not exist in the array'): console.log('This fruit does exist in the array')
