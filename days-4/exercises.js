@@ -23,3 +23,5 @@ console.log("Yaşlarımız eşit.")
 }*/
 
 // If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+
+
