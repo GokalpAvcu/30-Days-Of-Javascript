@@ -54,3 +54,20 @@ for (let i = 0; i < numbers.length; i++){
 }
 
 console.log("Toplam", sum)
+
+// while loop
+let i = 0
+while (i <= 5) {
+  console.log(i)
+  i++
+}
+// 0 1 2 3 4 5
+
+// BREAK
+
+for(let i = 0; i <= 5; i++){
+    if(i == 3){
+        break
+    }
+    console.log(i)
+} // yukaridaki islemde 3'ü buldugun an durdur
