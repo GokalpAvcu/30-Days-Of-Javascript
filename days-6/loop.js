@@ -35,3 +35,22 @@ const names = ["Emre", "Ali", "Ahmet", "Gökhan", "Oğuzhan", "Ozan"]
 for (let i = 0; i < names.length; i++){
     console.log(names[i])
 } // dizimin uzunlugu dinamik oldugu icin names.length yaptim sonradan birinin eklenmesi ihtimaline karsin
+
+// Adding all elements in the array
+
+const numbers = [1, 2, 3, 4, 5]
+let sum = 0
+for(let i = 0; i < numbers.length; i++){
+    sum = sum  + numbers[i]
+}
+console.log(sum)
+
+
+let numberss = [5, 10, 15]
+let summ = 0
+
+for (let i = 0; i < numbers.length; i++){
+    sum += numbers[i]
+}
+
+console.log("Toplam", sum)
