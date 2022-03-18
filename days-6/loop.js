@@ -71,3 +71,18 @@ for(let i = 0; i <= 5; i++){
     }
     console.log(i)
 } // yukaridaki islemde 3'ü buldugun an durdur
+
+for(let name of names){
+    if ( name === "Gökhan"){
+        console.log(`${name} bulundu.`)
+        break
+    }
+    console.log("Ad", name)
+}
+
+for(let i=1; i<=7; i++){
+    for(let x=1; x<=i; x++){
+        console.log("#");
+    }
+}
+
