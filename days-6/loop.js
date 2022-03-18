@@ -16,4 +16,22 @@ for (let i=0; i <= 100; i++){
 
 for(let i=0; i <= 5; i++){
     console.log(`${i} * ${i} = ${i * i}`) 
-}
+} 
+/* 0 * 0 = 0
+1 * 1 = 1
+2 * 2 = 4
+3 * 3 = 9
+4 * 4 = 16
+5 * 5 = 25 */
+
+/*const names = ["Emre", "Ali", "Ahmet", "Gökhan", "Oğuzhan"]
+
+for (let i = 0; i <= 4; i++){
+    console.log(names[i])
+} */
+
+const names = ["Emre", "Ali", "Ahmet", "Gökhan", "Oğuzhan", "Ozan"]
+
+for (let i = 0; i < names.length; i++){
+    console.log(names[i])
+} // dizimin uzunlugu dinamik oldugu icin names.length yaptim sonradan birinin eklenmesi ihtimaline karsin
