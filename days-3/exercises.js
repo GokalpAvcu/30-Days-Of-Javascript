@@ -27,6 +27,13 @@ let areaOfCircle = pi * radius * radius;
 let circumference = 2 * pi * radius;
 console.log(`your pay is ${pay}`)
 
+//pay of a person
+
+const hours = Number(prompt("enter your hours"));
+const rate = Number(prompt("enter your rate"));
+let pay = hours * rate;
+console.log(`your pay is ${pay}`)
+
 
 
 
