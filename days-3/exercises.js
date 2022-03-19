@@ -1,26 +1,22 @@
 // DAY 3 - EXERCİSES
 
-// Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
-
+//area of a triangle (ücgenin alanı)
 const baseValue = Number(prompt("enter base of the triangle"));
 const heightValue = Number(prompt("enter height of the triangle"));
 const areaValue = (baseValue * heightValue ) / 2;
 console.log(`the area of the triangle is ${areaValue}`); 
 
-// Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
-
+//perimeter of a triangle (ücgenin cevresi)
 const sideA = Number(prompt("enter side A of the triangle:"));
 const sideB = Number(prompt("enter side B of the triangle:"));
 const sideC = Number(prompt("enter side C of the triangle:"));
 const perimeter = ( sideA + sideB + sideC)
 console.log(`the perimeter of the triangle is ${perimeter}`);
 
-// Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-
-const number1 = Number(prompt("Dikdörtgenin uzun kenarının değerini giriniz!"))
-const number2 = Number(prompt("Dikdörtgenin kısa kenarının değerini giriniz!"))
-
-const perimeterValue = (number1 + number2) * 2
+//area and perimeter of a rectangle (dikdörtgenin alanı ve cevresi)
+const length = Number(prompt("enter length of the rectangle"))
+const width = Number(prompt("enter width of the rectangle"))
+const areaOfRectangle = length * width
 console.log(`Dikdörtgenin alanı: ${perimeterValue}`) 
 
 // Compare your first name length and your family name length and you should get this output.
