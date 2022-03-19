@@ -17,7 +17,8 @@ console.log(`the perimeter of the triangle is ${perimeter}`);
 const length = Number(prompt("enter length of the rectangle"))
 const width = Number(prompt("enter width of the rectangle"))
 const areaOfRectangle = length * width
-console.log(`Dikdörtgenin alanı: ${perimeterValue}`) 
+const perimeterOfRectangle = (length + width) * 2;
+console.log(`the area of the rectangle is ${areaOfRectangle} while the perimeter is ${perimeterOfRectangle}`) 
 
 // Compare your first name length and your family name length and you should get this output.
 
