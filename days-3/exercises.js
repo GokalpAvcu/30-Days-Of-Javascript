@@ -19,28 +19,28 @@ console.log(`Üçgenin Çevresi: ${perimeterValue}`);
 
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
-/*const number1 = Number(prompt("Dikdörtgenin uzun kenarının değerini giriniz!"))
+const number1 = Number(prompt("Dikdörtgenin uzun kenarının değerini giriniz!"))
 const number2 = Number(prompt("Dikdörtgenin kısa kenarının değerini giriniz!"))
 
 const perimeterValue = (number1 + number2) * 2
-console.log(`Dikdörtgenin alanı: ${perimeterValue}`) */
+console.log(`Dikdörtgenin alanı: ${perimeterValue}`) 
 
 // Compare your first name length and your family name length and you should get this output.
 
-/*let firstName = prompt("İsminizi giriniz")
+let firstName = prompt("İsminizi giriniz")
 let lastName = prompt("Soy isminizi giriniz")
 
 firstName.length > lastName.length ? 
 console.log(`Your first name, ${firstName} is longer than your last name, ${lastName}`): 
-console.log(`Your first name, ${firstName} is shorter than your last name, ${lastName}`) */
+console.log(`Your first name, ${firstName} is shorter than your last name, ${lastName}`) 
 
 // Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
 
-/*let myAge = 42
+let myAge = 42
 let yourAge = 23
 let difference = Math.abs(myAge - yourAge)
 myAge > yourAge ? console.log(`I am ${difference} years older than you.`): 
-console.log(`I am ${difference} years younger than you.`) */
+console.log(`I am ${difference} years younger than you.`) 
 
 // Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
