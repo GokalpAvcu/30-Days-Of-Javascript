@@ -9,11 +9,11 @@ console.log(`the area of the triangle is ${areaValue}`);
 
 // Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
-const number1 = Number(prompt("A kenarının uzunluğunu giriniz:"));
-const number2 = Number(prompt("B kenarının uzunluğunu giriniz:"));
-const number3 = Number(prompt("C kenarınının uzunluğunu giriniz:"));
+const sideA = Number(prompt("enter side A of the triangle:"));
+const sideB = Number(prompt("enter side B of the triangle:"));
+const sideC = Number(prompt("enter side C of the triangle:"));
 
-const perimeterValue = ( number1 + number2 + number3)
+const perimeter = ( sideA + sideB + sideC)
 
 console.log(`Üçgenin Çevresi: ${perimeterValue}`);
 
