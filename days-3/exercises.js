@@ -12,10 +12,8 @@ console.log(`the area of the triangle is ${areaValue}`);
 const sideA = Number(prompt("enter side A of the triangle:"));
 const sideB = Number(prompt("enter side B of the triangle:"));
 const sideC = Number(prompt("enter side C of the triangle:"));
-
 const perimeter = ( sideA + sideB + sideC)
-
-console.log(`Üçgenin Çevresi: ${perimeterValue}`);
+console.log(`the perimeter of the triangle is ${perimeter}`);
 
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
