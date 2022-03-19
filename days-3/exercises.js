@@ -20,6 +20,18 @@ const areaOfRectangle = length * width
 const perimeterOfRectangle = (length + width) * 2;
 console.log(`the area of the rectangle is ${areaOfRectangle} while the perimeter is ${perimeterOfRectangle}`) 
 
+//area and circumference of a circle
+const pi = 3.14
+let radius = Number(prompt("Enter radius of a circle"));
+let areaOfCircle = pi * radius * radius;
+let circumference = 2 * pi * radius;
+console.log(`your pay is ${pay}`)
+
+
+
+
+
+
 // Compare your first name length and your family name length and you should get this output.
 
 let firstName = prompt("İsminizi giriniz")
