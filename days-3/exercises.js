@@ -22,16 +22,16 @@ console.log(`the area of the rectangle is ${areaOfRectangle} while the perimeter
 
 //area and circumference of a circle
 const pi = 3.14
-let radius = Number(prompt("Enter radius of a circle"));
-let areaOfCircle = pi * radius * radius;
-let circumference = 2 * pi * radius;
+const radius = Number(prompt("Enter radius of a circle"));
+const areaOfCircle = pi * radius * radius;
+const circumference = 2 * pi * radius;
 console.log(`your pay is ${pay}`)
 
 //pay of a person
 
 const hours = Number(prompt("enter your hours"));
 const rate = Number(prompt("enter your rate"));
-let pay = hours * rate;
+const pay = hours * rate;
 console.log(`your pay is ${pay}`)
 
 
