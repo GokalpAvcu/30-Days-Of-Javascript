@@ -33,9 +33,7 @@ const rate = Number(prompt("enter your rate"));
 const pay = hours * rate;
 console.log(`your pay is ${pay}`)
 
-
 // Compare your first name length and your family name length and you should get this output.
-
 let firstName = prompt("enter the first name")
 let lastName = prompt("enter the last name")
 
@@ -44,12 +42,11 @@ console.log(`Your first name, ${firstName} is longer than your last name, ${last
 console.log(`Your first name, ${firstName} is shorter than your last name, ${lastName}`) 
 
 // Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
-
 let myAge = 42
 let yourAge = 23
 let difference = Math.abs(myAge - yourAge)
-myAge > yourAge ? console.log(`I am ${difference} years older than you.`): 
-console.log(`I am ${difference} years younger than you.`) 
+myAge > yourAge ? console.log(`Ben senden ${difference} yaş kadar daha büyüğüm.`): 
+console.log(`Ben senden ${difference} yaş kadar daha küçüğüm.`) 
 
 // Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
