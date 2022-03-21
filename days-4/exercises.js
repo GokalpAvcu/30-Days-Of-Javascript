@@ -21,8 +21,7 @@ console.log("Yaşlarımız eşit.")
 }
 
 // If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
-// using if else / ternary operator.
-
+// using if else 
 let a = 4;
 let b = 3;
 if (a>b){
@@ -30,7 +29,30 @@ if (a>b){
 }else{
     console.log("a is less than b");
 }
+// ternary operator
+(a > b) ? console.log("a is greater than b"): console.log("a is less than b");
 
+// Write a code which can give grades to students according to theirs scores
+let score = Number(prompt("enter your score"));
+switch(true){
+    case score > 80:
+       console.log("A");
+       break;
+    case score > 70:
+        console.log("B");
+        break;
+    case score > 60:
+        console.log("C");
+        break;
+    case score > 50:
+        console.log("D");
+        break;
+    case score(score < 50):
+        console.log("F");
+        break;
+    default:
+        console.log("no score assigned")
 
+}
 
 
