@@ -20,29 +20,24 @@ const areaOfRectangle = length * width
 const perimeterOfRectangle = (length + width) * 2;
 console.log(`the area of the rectangle is ${areaOfRectangle} while the perimeter is ${perimeterOfRectangle}`) 
 
-//area and circumference of a circle
+//area and circumference of a circle (bir dairenin alanı ve cevresi)
 const pi = 3.14
 const radius = Number(prompt("Enter radius of a circle"));
 const areaOfCircle = pi * radius * radius;
 const circumference = 2 * pi * radius;
-console.log(`your pay is ${pay}`)
+console.log(`the area of the circle is ${areaOfCircle} while the circumference is ${circumference}`)
 
 //pay of a person
-
 const hours = Number(prompt("enter your hours"));
 const rate = Number(prompt("enter your rate"));
 const pay = hours * rate;
 console.log(`your pay is ${pay}`)
 
 
-
-
-
-
 // Compare your first name length and your family name length and you should get this output.
 
-let firstName = prompt("İsminizi giriniz")
-let lastName = prompt("Soy isminizi giriniz")
+let firstName = prompt("enter the first name")
+let lastName = prompt("enter the last name")
 
 firstName.length > lastName.length ? 
 console.log(`Your first name, ${firstName} is longer than your last name, ${lastName}`): 
