@@ -26,7 +26,6 @@ console.log(addTwoNumbers())
 function multiply(num1, num2){ // parametre değerlerini girdik
     return num1 * num2 // return ile geriye döndürdük
 }
-
 let total = multiply(5,2)
 console.log("Toplam", total) // Toplam 10
 
