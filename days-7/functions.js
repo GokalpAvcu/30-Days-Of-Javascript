@@ -101,5 +101,13 @@ const square = function(n) {
   
   console.log(squaredNum)
 
-//Arrow Function
+// Regular function (normal fonksiyon)
 
+function hello(name){
+    return `hello ${name}`
+}
+
+// Array Function (ok fonksiyonu)
+
+const hello2 = name => `hello ${name}` // tek bir parametrem varsa name yerinde parantez kullanmadim yukarıdaki gibi.
+console.log(hello2("Gökalp"))
