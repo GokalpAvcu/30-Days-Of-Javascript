@@ -84,3 +84,21 @@ function sumAllNums() {
 console.log(sumAllNums(1, 2, 3, 4)) // 10
 console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
 console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
+
+// Function expression
+const square = function(n) {
+    return n * n
+  }
+  console.log(square(2)) // -> 4
+
+//Self Invoking Functions
+(function(n) {
+    console.log(n * n)
+  })(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
+  let squaredNum = (function(n) {
+    return n * n
+  })(10)
+  
+  console.log(squaredNum)
+
+//Arrow Function
