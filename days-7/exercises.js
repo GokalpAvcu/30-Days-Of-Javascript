@@ -80,4 +80,19 @@ speed = (TDC, TT) =>{
 }
 console.log(speed(300,100))
 
+//Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+
+weight = (mass,gravity) =>{
+    return mass * gravity
+}
+console.log(weight(100,50))
+
+//Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+
+celsiusToFahrenheit = (celsius) => {
+    let fahrenheit = (celsius * 9 / 5) + 32
+    return fahrenheit;
+}
+console.log(celsiusToFahrenheit(5));
+
 
