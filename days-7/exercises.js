@@ -48,9 +48,23 @@ volumeOfRectPrism = (length, width, height) => {
     let volume = length * width * height;
     return volume;
 }
-volumeOfRectPrism(2, 3, 4);
+console.log(volumeOfRectPrism(2, 3, 4));
 
 //Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
+
+AreaOfCircle = (r) => {
+    const PI = 3.14;
+    let area = PI * r * r;
+}
+console.log(AreaOfCircle(7));
+
+//Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+
+circumOfCircle = (r) => {
+    const PI = 3.14;
+    return PI * r
+}
+console.log(circumOfCircle(6));
 
 
 
