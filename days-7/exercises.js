@@ -34,7 +34,23 @@ function perimeterOfRectangle(length, width){
 }
 console.log(perimeterOfRectangle(10,12))
 
+// alternatif çözüm 2
+
+/*perimeterOfRectangle = (length, width) => {
+    let perimeter = 2 * (length * width);
+    return perimeter;
+}
+perimeterOfRectangle(3, 5); */
+
 //A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which calculates volumeOfRectPrism.
 
-function
+volumeOfRectPrism = (length, width, height) => {
+    let volume = length * width * height;
+    return volume;
+}
+volumeOfRectPrism(2, 3, 4);
+
+//Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
+
+
 
