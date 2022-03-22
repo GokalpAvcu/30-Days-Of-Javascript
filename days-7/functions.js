@@ -102,3 +102,4 @@ const square = function(n) {
   console.log(squaredNum)
 
 //Arrow Function
+
