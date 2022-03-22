@@ -68,7 +68,7 @@ console.log(circumOfCircle(6));
 
 //Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
 
-density = (mass,volume) =>{
+density = (mass,volume) => {
     return mass * volume;
 }
 console.log(density(7,8))
