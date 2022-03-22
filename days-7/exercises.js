@@ -17,3 +17,8 @@ function addNumbers(x,y){
     return x + y;
 }
 console.log(addNumbers(2,5))
+
+//An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle
+
+
+
