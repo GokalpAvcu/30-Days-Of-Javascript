@@ -40,7 +40,6 @@ function printFullName(firstName, lastName) {
     let sum = numOne + numTwo
     return sum
   }
-  
   console.log(sumTwoNumbers(10, 20)) // 30
 
 //Function with many parameters
