@@ -1,0 +1,1 @@
+ad = "Gökalp" // window scope
