@@ -1,4 +1,4 @@
-ad = "Gökalp" // window scope
+/*ad = "Gökalp" // window scope
 
 //Window Global Object
 
@@ -10,11 +10,11 @@ function letsLearnScope() {
     console.log(a, b)
   }
 }
-console.log(a, b) // accessible
+console.log(a, b) // accessible */
 
 //Global scope
 
-let a = 'JavaScript' // küresel bir kapsamdır, bu dosyanın herhangi bir yerinde bulunacaktır
+/*let a = 'JavaScript' // küresel bir kapsamdır, bu dosyanın herhangi bir yerinde bulunacaktır
 let b = 10 // küresel bir kapsamdır, bu dosyanın herhangi bir yerinde bulunacaktır
 function letsLearnScope() {
   console.log(a, b) // JavaScript 10, accessible
@@ -26,7 +26,7 @@ function letsLearnScope() {
   console.log(a, b) // bu kod yukarıda tanımlanmış a = "Javascript" b = 10'yi etkiler
 }
 letsLearnScope()
-console.log(a, b) // JavaScript 10, accessible
+console.log(a, b) // JavaScript 10, accessible */
 
 let name = "Gökalp"
 let surname = "Avcu"
@@ -40,3 +40,5 @@ function letsLearnScope(){
     }
     console.log(name,surname)
 }
+letsLearnScope()
+console.log(name,surname)
