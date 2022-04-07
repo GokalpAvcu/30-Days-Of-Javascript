@@ -48,7 +48,8 @@ let name = "Gökalp"
 let surName = "Avcu"
 let a = 10
 let b = 20
-let fullName = `${name}
+let fullName =
+ `${name}
 
 ${a} + ${b} = ${a + b}
 
