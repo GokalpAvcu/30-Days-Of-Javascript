@@ -57,7 +57,7 @@ if (weather === 'rainy') {
 }
 
 // switch 
-// Switch, if else if else için bir alternatiftir . switch ifadesi, bir switch anahtar sözcüğü ile başlar, ardından bir parantez ve kod bloğu gelir. Kod bloğunun içinde farklı durumlarımız olacak. 
+// Switch, if else için bir alternatiftir . switch ifadesi, bir switch anahtar sözcüğü ile başlar, ardından bir parantez ve kod bloğu gelir. Kod bloğunun içinde farklı durumlarımız olacak. 
 // Vaka bloğu, switch ifadesi parantezindeki değer vaka değeriyle eşleşirse çalışır.
 // Break ifadesi, koşul yerine getirildikten sonra kod yürütmesinin düşmemesi için yürütmeyi sonlandırmak içindir. 
 // Varsayılan blok, tüm durumlar koşulu karşılamıyorsa çalışır.
