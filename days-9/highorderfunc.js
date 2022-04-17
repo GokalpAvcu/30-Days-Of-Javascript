@@ -52,7 +52,12 @@ function sayHello(){
 //clearTimeout
 const interval = setInterval(sayHello,1000)
 
-setTimeout(()=> {
+const timeout = setTimeout(() => {
     clearInterval(interval)
     console.log("interval işlemi iptal edildi")
 },5000)
+
+setTimeout(() => {
+    clearTimeout(timeout)
+    console.log("timeout işlemi iptal edildi, interval devam edecek...")
+},3000)
