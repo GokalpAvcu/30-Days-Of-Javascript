@@ -29,3 +29,30 @@ numbers.forEach(calculate)
 
 //console.log(total)
 
+/*Setting time
+In JavaScript we can execute some activities in a certain interval of time or we can schedule(wait) for some time to execute some activities.
+
+setInterval
+setTimeout */
+
+function sayHello() {
+    console.log("Hello")
+}
+// setInterval(sayHello,3000) // her 3 saniyede bir sayHello yazmaya devam eder
+
+// Gelecekte ki zaman diliminde bir kod blogunu calistirmak icin
+// setTimeout kullanırız
+
+function sayHello(){
+    console.log("Hello")
+}
+//setTimeout(sayHello,5000)
+
+//clearInterval 
+//clearTimeout
+const interval = setInterval(sayHello,1000)
+
+setTimeout(()=> {
+    clearInterval(interval)
+    console.log("interval işlemi iptal edildi")
+},5000)
