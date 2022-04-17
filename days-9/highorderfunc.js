@@ -50,8 +50,8 @@ function sayHello(){
 
 //clearInterval 
 //clearTimeout
-const interval = setInterval(sayHello,1000)
 
+const interval = setInterval(sayHello,1000)
 const timeout = setTimeout(() => {
     clearInterval(interval)
     console.log("interval işlemi iptal edildi")
@@ -61,3 +61,21 @@ setTimeout(() => {
     clearTimeout(timeout)
     console.log("timeout işlemi iptal edildi, interval devam edecek...")
 },3000)
+
+// Functional Programming
+
+// forEach
+
+let sum = 0;
+const nmbers = [1, 2, 3, 4, 5];
+nmbers.forEach(num => console.log(num))
+console.log(sum)
+
+/*let sum = 0;
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => sum += num)
+
+console.log(sum)*/
+
+const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+countries.forEach((element) => console.log(element.toUpperCase()))
