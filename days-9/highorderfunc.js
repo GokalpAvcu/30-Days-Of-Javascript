@@ -67,15 +67,20 @@ setTimeout(() => {
 // forEach
 
 let sum = 0;
-const nmbers = [1, 2, 3, 4, 5];
-nmbers.forEach(num => console.log(num))
+const numbers2 = [1, 2, 3, 4, 5];
+numbers2.forEach(num => console.log(num))
 console.log(sum)
+
+// Output: 1,2,3,4,5
 
 /*let sum = 0;
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(num => sum += num)
 
-console.log(sum)*/
+console.log(sum)
+Output: 15 */
 
 const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
 countries.forEach((element) => console.log(element.toUpperCase()))
+
+// Output: FINLAND DENMARK SWEDEN NORWAY ICELAND
