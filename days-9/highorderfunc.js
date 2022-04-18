@@ -146,3 +146,41 @@ const countriesHaveFiveLetters = countries.filter(
   
   const scoresGreaterEighty = scores.filter((score) => score.score > 80)
   console.log(scoresGreaterEighty)
+
+// reduce
+
+/*arr.reduce((acc, cur) => {
+    // some operations goes here before returning a value
+   return 
+  }, initialValue) */
+
+/*const numbers = [1, 2, 3, 4, 5]
+const sum = numbers1.reduce((acc, cur) => acc + cur, 0)
+
+console.log(sum) */
+
+// every 
+// her bir elemanı bizim koşulumuzu karşılayıp karşılamadığını kontrol ediyor. Her birisinin ony karşılaması gerekiyor. Her birisi karşılıyorsa true dönüyor
+
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const areAllStr = names.every((name) => typeof name === 'string') // Are all strings?
+
+console.log(areAllStr)
+
+const bools = [true, true, true, true]
+const areAllTrue = bools.every((b) => b === true) // Are all true? 
+
+console.log(areAllTrue) // true
+
+// some 
+// every ile aynı. tek farkı elemanlardan herhangi biri koşula uygun ve geçerliyse true döner
+
+/*const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const bools = [true, true, true, true]
+
+const areSomeTrue = bools.some((b) =>  b === true)
+
+console.log(areSomeTrue) //true */
+
+/*const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
+console.log(areAllStr) // false */
