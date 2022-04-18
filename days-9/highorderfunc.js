@@ -84,3 +84,65 @@ const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
 countries.forEach((element) => console.log(element.toUpperCase()))
 
 // Output: FINLAND DENMARK SWEDEN NORWAY ICELAND
+
+// map
+
+let users = [
+    {
+        id: 1,
+        name: "Tayfun",
+        age: 29
+    },
+    {
+        id: 2,
+        name: "Ahmet",
+        age: 24
+    },
+    {
+        id:3,
+        name: "Mehmet",
+        age: 29
+    }
+]
+
+users = users.map(user => { // her bir user'i mapledim (yani aldım)
+    if(user.id == 2){  // id'si 2 olan Ahmet'i Hakan olarak değiştirdim
+        user.name = "Hakan"
+    }
+    return user
+})
+
+console.log(users) 
+
+/*const name = ["Gökalp", "Uygar", "Tayfun", "Ömer", "Ali"]
+const nameToUpperCase = name.map((name) => name.toUpperCase())
+console.log(nameToUpperCase) */
+
+const countriesFirstThreeLetters = countries.map((country) =>
+  country.toUpperCase().slice(0, 3)
+)
+console.log(countriesFirstThreeLetters)
+
+// filter
+
+const countriesContainingLand = countries.filter((country) =>
+  country.includes('land')
+)
+console.log(countriesContainingLand)
+
+const countriesHaveFiveLetters = countries.filter(
+    (country) => country.length === 5
+  )
+  console.log(countriesHaveFiveLetters)
+
+  const scores = [
+    { name: 'Asabeneh', score: 95 },
+     { name: 'Lidiya', score: 98 },
+    { name: 'Mathias', score: 80 },
+    { name: 'Elias', score: 50 },
+    { name: 'Martha', score: 85 },
+    { name: 'John', score: 100 },
+  ]
+  
+  const scoresGreaterEighty = scores.filter((score) => score.score > 80)
+  console.log(scoresGreaterEighty)
