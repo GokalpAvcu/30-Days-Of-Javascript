@@ -184,3 +184,46 @@ console.log(areSomeTrue) //true */
 
 /*const areAllStr = names.some((name) => typeof name === 'number') // Are all strings ?
 console.log(areAllStr) // false */
+
+// find 
+// koşula uyan ilk elemanı döndürür
+
+const ages = [24, 22, 25, 32, 35, 18]
+const age = ages.find((age) => age < 20)
+
+console.log(age)
+
+/*const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const result = names.find((name) => name.length > 7)
+console.log(result) */
+// output: Asabeneh
+
+/*const numbers = [1,3,5,6,9]
+console.log(
+    numbers.find(number => number 3)
+)*/
+// output: 5
+
+// sort
+// Sıralama yöntemleri, dizi öğelerini artan veya azalan düzende düzenler. Varsayılan olarak, sort() yöntemi değerleri dizeler olarak sıralar. Bu, dize dizisi öğeleri için iyi çalışır ancak sayılar için geçerli değildir. Sayı değerleri string olarak sıralanırsa ve bize yanlış sonuç verir. Sıralama yöntemi, orijinal diziyi değiştirir.
+// Sıralama yöntemini kullanmaya başlamadan önce orijinal verileri kopyalamanız önerilir .
+
+const products = ['Milk', 'Coffee', 'Sugar', 'Honey', 'Apple', 'Carrot']
+console.log(products.sort()) // ['Apple', 'Carrot', 'Coffee', 'Honey', 'Milk', 'Sugar']
+//Now the original products array  is also sorted
+
+
+/*const numbers = [9.81, 3.14, 100, 37]
+// Using sort method to sort number items provide a wrong result. see below
+console.log(numbers.sort()) //[100, 3.14, 37, 9.81]
+numbers.sort(function (a, b) {
+  return a - b
+})
+
+console.log(numbers) // [3.14, 9.81, 37, 100]
+
+numbers.sort(function (a, b) {
+  return b - a
+})
+console.log(numbers) //[100, 37, 9.81, 3.14] */
+
