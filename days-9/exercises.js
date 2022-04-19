@@ -61,19 +61,27 @@ let prices = products.map((product) => {
 console.log(prices);
 
 //11-Use filter to filter out countries containing land.
-const countriesWithLand = countries.filter((country) => {
-  return country.toLowerCase().includes("land");
+let countriesWithLand = countries.filter((country) => {
+  return country.toLowerCase().includes("land");   // küçük harfe dönüştürme
 });
 console.log(countriesWithLand);
 
 //12-Use filter to filter out countries having six character.
-const countriesWith6chars = countries.filter((country)=>{
-  return country.length === 6
-})
-console.log(countriesWith6chars)
+let countriesWith6chars = countries.filter((country) => {
+  return country.length === 6;
+});
+console.log(countriesWith6chars);
 
-//Use filter to filter out countries containing six letters and more in the country array.
-const countriesMax6Chr = countries.filter(country=>{
- return country.length >= 6
-})
-console.log(countriesMax6Chr)
+//13-Use filter to filter out countries containing six letters and more in the country array.
+let countriesMax6Chr = countries.filter((country) => {
+  return country.length >= 6;
+});
+console.log(countriesMax6Chr);
+
+//14-Use filter to filter out country start with 'E';
+let countriesChrE = countries.filter((country) => {
+  return country[0].toLowerCase === "e";
+});
+console.log(countriesChrE);
+
+//Use filter to filter out only prices with values.
