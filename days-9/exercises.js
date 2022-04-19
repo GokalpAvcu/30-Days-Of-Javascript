@@ -84,4 +84,8 @@ let countriesChrE = countries.filter((country) => {
 });
 console.log(countriesChrE);
 
-//Use filter to filter out only prices with values.
+//15-Use filter to filter out only prices with values.
+let pricesWithValues = products.filter(product =>{
+  return product.price > 0;
+})
+console.log(pricesWithValues)
