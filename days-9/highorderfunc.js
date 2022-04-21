@@ -65,6 +65,8 @@ setTimeout(() => {
 // Functional Programming
 
 // forEach
+// Bir dizi öğelerini yinelemek için kullanılır. forEach'i yalnızca dizilerle kullanırız . 
+// Öğeler, dizin parametresi ve dizinin kendisi ile bir geri arama işlevi alır. Dizin ve dizi isteğe bağlıdır.
 
 let sum = 0;
 const numbers2 = [1, 2, 3, 4, 5];
@@ -86,6 +88,14 @@ countries.forEach((element) => console.log(element.toUpperCase()))
 // Output: FINLAND DENMARK SWEDEN NORWAY ICELAND
 
 // map
+// Bir dizi öğelerini yineleyin ve dizi öğelerini değiştirin. 
+// Öğeleri, indeksi, dizi parametresini içeren bir geri çağırma işlevi alır ve yeni bir dizi döndürür.
+// map() fonksiyonu filter() fonksiyonunda olduğu gibi herbir element için bir callback fonksiyonu çağırır ve aynı parametreleri geçirir. 
+// Callback fonksiyonu tarafından döndürülen değerleri bir dizide biriktirir ve sonuç olarak bu diziyi döndürür.
+
+const modifiedArray = arr.map(function (element, index, arr) {
+    return element
+  })
 
 let users = [
     {
@@ -125,6 +135,11 @@ console.log(countriesFirstThreeLetters)
 
 // filter
 
+// Filtreleme koşullarını tam olarak dolduran ve yeni bir dizi döndüren öğeleri filtreleyin.
+
+// filter() fonksiyonu dizideki herbir eleman için içerisine yazılan callback fonksiyonunu çağırır. Bu fonksiyonu çağırırken de birinci parametre olarak sıradaki elemanı (elem), 
+// ikinci parametre olarak geçerli sıra numarasını (i), üçüncü parametre olarak da dizinin kendisini (dizi ) verir. filter() , callback fonksiyonunun true değerini döndürdüğü elemanları bir dizi olarak geri döndürür.
+
 const countriesContainingLand = countries.filter((country) =>
   country.includes('land')
 )
@@ -160,7 +175,11 @@ const sum = numbers1.reduce((acc, cur) => acc + cur, 0)
 console.log(sum) */
 
 // every 
-// her bir elemanı bizim koşulumuzu karşılayıp karşılamadığını kontrol ediyor. Her birisinin ony karşılaması gerekiyor. Her birisi karşılıyorsa true dönüyor
+
+// tüm öğelerin bir açıdan benzer olup olmadığını kontrol edin. Boolean değerini döndürür.
+
+// her bir elemanı bizim koşulumuzu karşılayıp karşılamadığını kontrol ediyor. 
+// her birisinin onu karşılaması gerekiyor. Her birisi karşılıyorsa true dönüyor
 
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const areAllStr = names.every((name) => typeof name === 'string') // Are all strings?
@@ -173,6 +192,7 @@ const areAllTrue = bools.every((b) => b === true) // Are all true?
 console.log(areAllTrue) // true
 
 // some 
+
 // every ile aynı. tek farkı elemanlardan herhangi biri koşula uygun ve geçerliyse true döner
 
 /*const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
@@ -186,7 +206,7 @@ console.log(areSomeTrue) //true */
 console.log(areAllStr) // false */
 
 // find 
-// koşula uyan ilk elemanı döndürür
+// koşulu sağlayan ilk elemanı döndürür
 
 const ages = [24, 22, 25, 32, 35, 18]
 const age = ages.find((age) => age < 20)
@@ -205,6 +225,7 @@ console.log(
 // output: 5
 
 // sort
+
 // Sıralama yöntemleri, dizi öğelerini artan veya azalan düzende düzenler. Varsayılan olarak, sort() yöntemi değerleri dizeler olarak sıralar. Bu, dize dizisi öğeleri için iyi çalışır ancak sayılar için geçerli değildir. Sayı değerleri string olarak sıralanırsa ve bize yanlış sonuç verir. Sıralama yöntemi, orijinal diziyi değiştirir.
 // Sıralama yöntemini kullanmaya başlamadan önce orijinal verileri kopyalamanız önerilir .
 

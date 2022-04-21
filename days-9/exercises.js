@@ -91,6 +91,7 @@ let pricesWithValues = products.filter(product =>{
 console.log(pricesWithValues)
 
 //16-Bir diziyi parametre olarak alan ve ardından yalnızca dize öğeleriyle bir dizi döndüren getStringLists adlı bir işlev bildirin.
+//arr'ı parametre olarak aldım
 const getList = (arr) => {
   let aa = arr.filter(item => {
     return typeof item === "string"
@@ -101,16 +102,14 @@ let aa = getList(["victor", 3, 5, "kenneth"]);
 console.log(aa);
 
 
+//17-Sayılar dizisindeki tüm sayıları toplamak için reduce kullanın.
+let sumOfNumbers = numbers.reduce((aa,bb)=>{
+  return aa + bb;
+})
+console.log(sumOfNumbers)
 
-//17-Use reduce to sum all the numbers in the numbers array.
+//18-Tüm ülkeleri birleştirmek ve şu cümleyi oluşturmak için Reduce metodunu kullanın : Estonya, Finlandiya, İsveç, Danimarka, Norveç ve IceLand kuzey Avrupa ülkeleridir.
 
-
-
-
-
-
-
-//18-Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
 
 
 
