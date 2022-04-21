@@ -90,9 +90,15 @@ let pricesWithValues = products.filter(product =>{
 })
 console.log(pricesWithValues)
 
-//16-Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
-
-
+//16-Bir diziyi parametre olarak alan ve ardından yalnızca dize öğeleriyle bir dizi döndüren getStringLists adlı bir işlev bildirin.
+const getList = (arr) => {
+  let aa = arr.filter(item => {
+    return typeof item === "string"
+  })
+  return aa;
+}
+let aa = getList(["victor", 3, 5, "kenneth"]);
+console.log(aa);
 
 
 
